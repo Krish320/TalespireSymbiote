@@ -1,0 +1,25 @@
+{
+    "manifestVersion": 1,
+    "name": "character sheet",
+    "entryPoint": "/character_sheet.html",
+    "version": "0.1",
+    "descriptionFilePath": "/readme.md",
+    "api": {
+      "version": "0.1",
+      "initTimeout": 10,
+      "subscriptions": {
+        "symbiote": {
+          "onStateChangeEvent": "onStateChangeEvent"
+        }
+      }
+    },
+    "environment": {
+      "webViewBackgroundColor": "#000000",
+      "extras": [
+        "fonts",
+        "icons",
+        "colorStyles"
+      ]
+    }
+  }
+  
